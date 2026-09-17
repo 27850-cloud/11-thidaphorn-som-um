@@ -9,3 +9,7 @@
 s1 = int(input())
 s2 = int(input())
 s3 = int(input())
+total = s1 + s2 + s3
+discount = total / 3
+print(f"คะแนนรวม{total:.2f}")
+print(f"คะแนนเฉลี่ย{discount:.2f}")
